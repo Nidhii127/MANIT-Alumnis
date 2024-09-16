@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .landing-page {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(
+        100% 159.69% at 100% 100%,
+        #120e3d 0%,
+        #000000 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  }
+  .landing-box {
+    /* border: white 2px solid; */
+    margin-top: 110px;
+    height: 60vh;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-size: 4rem;
+  }
+  .Text {
+    font-family: Poppins;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 60px;
+    text-align: left;
+    color: white;
+  }
+  .event-details {
+    display: flex;
+    justify-content: space-between;
+  }
+  .Text > span {
+    font-family: Roboto;
+    font-size: 115px;
+    font-weight: 600;
+    line-height: 116.37px;
+    text-align: center;
+    color: rgb(1, 199, 228);
+  }
+  .landing-box:nth-child(3) > span {
+    font-family: Roboto;
+    font-size: 115px;
+    font-weight: 400;
+    line-height: 116.37px;
+    text-align: center;
+  }
+  .event-details > div {
+    display: flex;
+    justify-content: space-between;
+    gap:350px;
+  }
+  .event-details> *{
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 45px;
+    text-align: left;
+    color: white;
+    align-items: center;
+  }
+#contact-us{
+  height: 48px;
+  width: 142px;
+  background-color: #FFFFFF;
+  color: black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.22rem;
+
+}
+
+.about-us{
+  height: 445px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+
+}
+
+.header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 2.5rem;
+  padding-top: 4rem;
+  gap: 5rem;
+
+}
+
+.d1{
+  width: 264px;
+  background-color: #00E0FF;
+  height: 2px;
+ 
+}
+.d2{
+  width: 264px;
+  background-color: #00E0FF;
+  height: 2px;
+  
+
+}
+.about-us-text{
+  font-size: 1.15rem;
+  color:#9E9D9D;
+  line-height:44px ;
+  text-align: center;
+
+}
+
+.opportunities{
+  background-color:#F3F3F3;
+  height:100vh;
+
+}
