@@ -1,0 +1,367 @@
+* {
+    margin: 0;
+    padding: 0;
+  
+  }
+  .landing-page {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(
+        100% 159.69% at 100% 100%,
+        #120e3d 0%,
+        #000000 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  }
+  .landing-box {
+    /* border: white 2px solid; */
+    margin-top: 110px;
+    height: 60vh;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-size: 4rem;
+  }
+  .Text {
+    font-family: Poppins;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 60px;
+    text-align: left;
+    color: white;
+  }
+  .event-details {
+    display: flex;
+    justify-content: space-between;
+  }
+  .Text > span {
+    font-family: Roboto;
+    font-size: 115px;
+    font-weight: 600;
+    line-height: 116.37px;
+    text-align: center;
+    color: rgb(1, 199, 228);
+  }
+  .landing-box:nth-child(3) > span {
+    font-family: Roboto;
+    font-size: 115px;
+    font-weight: 400;
+    line-height: 116.37px;
+    text-align: center;
+  }
+  .event-details > div {
+    display: flex;
+    justify-content: space-between;
+    gap:350px;
+  }
+  .event-details> *{
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 45px;
+    text-align: left;
+    color: white;
+    align-items: center;
+  }
+#contact-us{
+  height: 48px;
+  width: 142px;
+  background-color: #FFFFFF;
+  color: black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.22rem;
+
+}
+
+.about-us{
+  height: 445px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  z-index: 1000;
+
+}
+
+.about-header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 2.5rem;
+  padding-top: 4rem;
+  gap: 5rem;
+
+}
+
+.d1{
+  width: 264px;
+  background-color: #00E0FF;
+  height: 2px;
+ 
+}
+.d2{
+  width: 264px;
+  background-color: #00E0FF;
+  height: 2px;
+  
+
+}
+.about-us-text{
+  font-size: 1.15rem;
+  color:#9E9D9D;
+  line-height:44px ;
+  text-align: center;
+
+}
+
+.opportunities{
+  background-color:#F3F3F3;
+  height:120vh;
+  z-index: -1;
+  position: static;
+  padding-top: 4.5rem;
+
+}
+
+.opp-header{
+  text-align: center;
+  font-size: 2.5rem;
+  
+
+}
+
+.img1{
+  position: absolute;
+  z-index: 1000;
+  top:67rem;
+  right: 0px;
+  height: 20rem;
+  width: 20rem;
+
+}
+
+#img1{
+  width: 100%;
+  height: auto;
+  transform: translate(0, -50%) rotate(0deg) skewX(0deg) skewY(0deg) scaleX(1) scaleY(1);
+}
+
+.opp-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap:5rem;
+  margin-top: 3.5rem;
+
+}
+
+.opp-card{
+  background: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border-radius: 2.5rem;
+  height: 16rem;
+  width: 16rem;
+  z-index: 20000;
+  box-shadow: 0px 4px 100px 0px #00000026;
+  gap: 2rem;
+
+
+
+}
+
+.opp-card-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  background: radial-gradient(111.36% 111.36% at 16.48% 11.93%, #00E0FF 0%, #0044F2 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+
+}
+
+.opp-card-text{
+  font-weight: bolder;
+  text-align: center;
+  font-size: 1.4rem;
+  padding: 0rem 2rem;
+}
+
+.registraion-form{
+  height: 250vh;
+  background: radial-gradient(95.68% 96.91% at 0% 2.36%, #00E0FF 0%, #0044F2 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  z-index: 1;
+  gap: 5rem;
+
+}
+
+.reg-container{
+  height: 180vh;
+  width: 65%;
+  box-shadow: 0px 6px 50px 0px #000E8D40
+  ;
+  background: #FFFEFE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  flex-direction: column;
+  gap: 5rem;
+  margin-top: 8rem;
+  
+  z-index: 1;
+
+
+}
+
+.reg-header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 2.5rem;
+  padding-top: 4rem;
+  gap: 5rem;
+}
+
+.g1{
+  width: 200px;
+  background-color: #00E0FF;
+  height: 2px;
+ 
+}
+.g2{
+  width: 200px;
+  background-color: #00E0FF;
+  height: 2px;
+  
+
+}
+
+
+.reg-form-con{
+  width: 90%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 5rem;
+ 
+}
+
+.reg-form-card{
+  background: #F5F5F5;
+  height: 45%;
+  width: 75%;
+  border-radius: 0.3rem;
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+
+
+}
+
+.input{
+  border: none;
+  outline: transparent;
+  background: transparent;
+}
+
+.reg-form-card-2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45%;
+  width: 78%;
+  gap: 0.0999rem;
+
+
+
+}
+
+.reg-form-card-3{
+  background: #F5F5F5;
+  height: 100%;
+  width: 80%;
+  border-radius: 0.3rem;
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+  
+
+}
+
+.reg-btn{
+  background: linear-gradient(89.97deg, #0044F2 0.08%, #00E0FF 99.94%);
+
+  height: 45%;
+  width: 75%;
+  border-radius: 0.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 2rem;
+
+}
+
+.subs{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0rem 5rem;
+  box-shadow: 0px -12px 35px 0px #00000040;
+  background-color: #FFFFFF;
+  height: 40vh;
+  z-index: 20000;
+  width:88.5vw;
+  border-radius: 3rem;
+  
+  
+
+}
+
+.subs-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.subs-btn{
+  box-shadow: 0px 12px 37px 0px #00000026;
+  background-color:#F3F3F3;
+  width: 50%;
+  height: 30%;
+  border-radius: 81rem;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 4rem;
+}
+
+.btn-subs{
+  width: 30%;
+  background: linear-gradient(270deg, #00E0FF 0%, #0044F2 100%);
+  border-radius: 81rem;
+
+}
