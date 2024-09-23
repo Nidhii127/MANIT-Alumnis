@@ -218,7 +218,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  font-size: 2.3rem;
+  font-size: 2rem;
   gap: 4rem;
 
 }
@@ -237,7 +237,7 @@
 
 }
 .about-us-text{
-  font-size: 1.08rem;
+  font-size: 0.9rem;
   color:#9E9D9D;
   line-height:44px ;
   text-align: center;
@@ -258,7 +258,8 @@
 
 .opp-header{
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 2rem;
+  font-weight: 600;
   
 
 }
@@ -320,9 +321,10 @@
 }
 
 .opp-card-text{
-  font-weight: bolder;
+  font-weight: 550;
   text-align: center;
-  font-size: 1.4rem;
+  font-size: 1.1rem;
+
   padding: 0rem 2rem;
 }
 
@@ -368,9 +370,10 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  font-size: 2.5rem;
+  font-size: 2rem;
   padding-top: 4rem;
-  gap: 5rem;
+  gap: 2.7rem;
+  font-weight: 600;
 }
 
 .g1{
@@ -387,10 +390,18 @@
 
 }
 
-.btn{
+.btn .btn2{
   cursor: pointer;
+  transition: transform 0.3s ease; 
+
   
 }
+.btn:hover {
+  transform: scale(0.99) translateY(-3px);
+}
+
+.btn2:hover {
+  transform: scale(1.1) translateY(-3px);}
 
 
 
@@ -403,6 +414,7 @@
   align-items: center;
   gap: 1.5rem;
   margin-bottom: 5rem;
+  font-style: italic;
  
 }
 
