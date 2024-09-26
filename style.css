@@ -235,6 +235,10 @@
   align-items: center;
   font-size: 2rem;
   gap: 4rem;
+  white-space: nowrap;
+}
+.head{
+  white-space: nowrap;
 }
 
 .d1{
