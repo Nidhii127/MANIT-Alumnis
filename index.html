@@ -5,7 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Caveat:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Caveat:wght@400..700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
 
     <title style="background: linear-gradient(180deg, #00E0FF 0%, rgba(0, 224, 255, 0) 100%);
@@ -13,11 +17,15 @@
       
   </head>
   <body>
+    <div class="navbar"></div>
     <div class="landing-page">
+      
+      
       <div class="landing-box">
-        <div class="Text">Entrepreneurship Cell presents</div>
-        <div class="Text"><span >MANIT Alumnis'</span></div>
-        <div class="Text meet" style=" margin-top:-2.5rem;">Meet 2023</div>
+        
+        <div class="Text" style='font-family: "Poppins", sans-serif;' >Entrepreneurship Cell presents</div>
+        <div class="Text MANIT" style='font-family: "Poppins", sans-serif;'><span >MANIT Alumnis'</span></div>
+        <div class="Text meet" style='  margin-top:-2.5rem; font-family: "Poppins", sans-serif;' >Meet 2023</div>
         <div class="event-details">
           <div>
             <div class="p1-calender">
@@ -147,135 +155,72 @@
     </section>
     <!-- Registration Form-->
     <section id="registraion-form">
-    <div class="registraion-form">
-      <div class="reg-container">
-        <div class="reg-header">
-          <div class="g1"></div>
-          <div class="head">Register for event</div>
-          <div class="g2"></div>
-
-
-        </div>
-        <div class="reg-form-con">
-          
+      <div class="registraion-form">
+        <div class="reg-container">
+          <div class="reg-header">
+            <div class="g1"></div>
+            <div class="head">Register for event</div>
+            <div class="g2"></div>
+  
+  
+          </div>
+          <div class="reg-form-con">
+            
+              <div class="reg-form-card-2">
+                <div class="reg-form-card-3"><input type="text" placeholder="First Name" id="FName" required="" class="input"></div>
+                <div class="reg-form-card-3"><input type="text" placeholder="Last Name" id="LName" required="" class="input"></div>        
+            
+            </div>
+  
             <div class="reg-form-card-2">
-              <div class="reg-form-card-3"><input
-                type="text"
-                placeholder="First Name"
-                id="FName"
-                required=""
-                class="input"
-              /></div>
-              <div class="reg-form-card-3"><input
-                type="text"
-                placeholder="Last Name"
-                id="LName"
-                required=""
-                class="input"
-              /></div>        
+              <div class="reg-form-card-3"><input type="text" placeholder="Branch" id="branch" required="" class="input"></div>
+              <div class="reg-form-card-3"><input type="text" placeholder="Year of Passing" id="year" required="" class="input"></div>        
           
           </div>
-
+  
           <div class="reg-form-card-2">
-            <div class="reg-form-card-3"><input
-              type="text"
-              placeholder="Branch"
-              id="branch"
-              required=""
-              class="input"
-            /></div>
-            <div class="reg-form-card-3"><input
-              type="text"
-              placeholder="Year of Passing"
-              id="year"
-              required=""
-              class="input"
-            /></div>        
+            <div class="reg-form-card-3"><input type="text" placeholder="Contact No." id="contact" required="" class="input"></div>
+            <div class="reg-form-card-3"><input type="text" placeholder="E-mail" id="E-mail" required="" class="input"></div>        
         
-        </div>
-
-        <div class="reg-form-card-2">
-          <div class="reg-form-card-3"><input
-            type="text"
-            placeholder="Contact No."
-            id="contact"
-            required=""
-            class="input"
-          /></div>
-          <div class="reg-form-card-3"><input
-            type="text"
-            placeholder="E-mail"
-            id="E-mail"
-            required=""
-            class="input"
-          /></div>        
-      
-        </div>
-
+          </div>
+  
+              
+  
+              <div class="reg-form-card"><input type="text" placeholder="Occupation" id="Occupation" required="" class="input" ></div>
+  
+              <div class="reg-form-card"><input type="text" placeholder="College Achievements" id="clg-achvmnt" required="" class="input"></div>
+  
+              <div class="reg-form-card"><input type="text" placeholder="Brief Profile" id="Brief" required="" class="input"></div>
+  
+              <div class="reg-form-card"><input type="text" placeholder="Special Achievements" id="spl" required="" class="input"></div>
+  
+              <div class="reg-form-card msg"><input type="text" placeholder="Message For Your Batchmates" id="msgforbatch" required="" class="input"></div>
+              <div class="reg-btn btn">
+                <div style="display: hidden;"> </div>
+                <button style=" background: transparent; border: none; font-size: 1.1rem;
+                  color: white;">Register Now </button>
+                <img src="img/Arrow 1.png" alt="" style="right: 0px;">
+  
+              </div>
+  
             
-
-            <div class="reg-form-card"><input
-              type="text"
-              placeholder="Occupation"
-              id="Occupation"
-              required=""
-              class="input"
-            /></div>
-
-            <div class="reg-form-card"><input
-              type="text"
-              placeholder="College Achievements"
-              id="clg-achvmnt"
-              required=""
-              class="input"
-            /></div>
-
-            <div class="reg-form-card"><input
-              type="text"
-              placeholder="Brief Profile"
-              id="Brief"
-              required=""
-              class="input"
-            /></div>
-
-            <div class="reg-form-card"><input
-              type="text"
-              placeholder="Special Achievements"
-              id="spl"
-              required=""
-              class="input"
-            /></div>
-
-            <div class="reg-form-card msg" ><input
-              type="text"
-              placeholder="Message For Your Batchmates"
-              id="msgforbatch"
-              required=""
-              class="input"
-            /></div>
-            <div class="reg-btn btn">
-              <div style="display: hidden;"> </div>
-              <button style=" background: transparent; border: none; font-size: 1.1rem;
-                color: white;">Register Now </button>
-              <img src="img/Arrow 1.png" alt="" style="right: 0px;">
-
-            </div>
-
+  
+  
+  
+            
+  
+          </div>
           
-
-
-
-          
-
-        </div>
-        
-
-
+  
+  
+         </div>
       </div>
-      </section>
+
+    <!--subscription-->
+    </section>
       <div class="subs">
         <div class="subs-text">
-          <div class="t1"><img src="img/Don’t Miss our updates.png" alt=""></div>
+          <div class="t1"><p>Don't Miss our updates</p></div>
           <div class="t2">Subscribe Now</div>
         </div>
         <div class="subs-btn">
@@ -291,7 +236,7 @@
     <div class="line"></div>
     <div class="footer-con">
       <div class="ftr-con-1">
-        <div class="footer-contact">
+        <div class="footer-contact" style='font-family: "Poppins", sans-serif;'>
           <pre>Pratham Patidar      <a href="tel:+919294836692" style="color:black;  text-decoration: none;">9294836692</a></pre>
           
           <pre>Anuraj Shrivastava   <a href="tel:+918962970385" style="color: black; text-decoration: none;">8962970385</a></pre> 
@@ -309,7 +254,7 @@
        </div>
       </div>
       
-      <div class="footer-acc">
+      <div class="footer-acc " style='font-family: "Poppins", sans-serif;'>
             <div class="location" ><a class="btn2" href="https://www.bing.com/ck/a?!&&p=04e3d4be3f3a1bafJmltdHM9MTcyNzA0OTYwMCZpZ3VpZD0xZWY2YjM0ZS1hMmI4LTYyMTQtMGNhYi1hN2NiYTM3MTYzYWMmaW5zaWQ9NTY4NA&ptn=3&ver=2&hsh=3&fclid=1ef6b34e-a2b8-6214-0cab-a7cba37163ac&u=a1L21hcHM_Jm1lcGk9MTI3fn5Vbmtub3dufkFkZHJlc3NfTGluayZ0eT0xOCZxPUUtQ2VsbCUyQyUyME1BTklUJTIwQmhvcGFsJnNzPXlwaWQuWU40MDcweDE1MjI3ODE5NzYxNzAwOTc5MDc3JnBwb2lzPTIzLjIyNzgwOTkwNjAwNTg2Xzc3LjM4MzUyMjAzMzY5MTRfRS1DZWxsJTJDJTIwTUFOSVQlMjBCaG9wYWxfWU40MDcweDE1MjI3ODE5NzYxNzAwOTc5MDc3fiZjcD0yMy4yMjc4MX43Ny4zODM1MjImdj0yJnNWPTEmRk9STT1NUFNSUEw&ntb=1"><img src="img/Shape.png" alt=""></a> Maulana Azad National Institute of Technology, Bhopal India - 462003</div>
             <div class="mail" ><a class="btn2" href="mailto:support@2ecellnitb.com"><img src="img/mail.png" alt=""></a>support@ecellnitb.com</div>
             <div class="social-media">
