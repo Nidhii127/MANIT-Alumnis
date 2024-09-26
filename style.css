@@ -1259,6 +1259,7 @@ gap: 2rem;
         gap: 1.5rem;
     font-size: 0.5rem;
       }
+     
       .location {
         display: flex;
         justify-content: center;
@@ -1291,6 +1292,7 @@ gap: 2rem;
       .subs-btn{
         width: 85%;
       }
+      
     }
     @media (max-width: 380px) and (min-width: 200px){
       .g1, .g2{
@@ -1303,11 +1305,16 @@ gap: 2rem;
         width: 1.7rem; 
       }
      
+
+     
       }
 
       @media  (max-width: 350px) and (min-width: 200px){
         .head{
           font-size: 1.2rem;
+        }
+        .nav>a{
+          font-size: 0.53rem;
         }
         
       }
